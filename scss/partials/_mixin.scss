@@ -1,0 +1,27 @@
+/* @mixin encabezados(){
+    h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+} */
+@mixin encabezados($tamano) {
+  h1 {
+    font-size: $tamano;
+  }
+  h2 {
+    font-size: $tamano - 0.2;
+  }
+  h3 {
+    font-size: $tamano - 0.3;
+  }
+}
+
+@mixin sizes($ancho, $alto) {
+  width: $ancho;
+  height: $alto;
+}

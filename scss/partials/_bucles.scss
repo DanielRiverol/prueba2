@@ -1,0 +1,25 @@
+//for
+@for $i from 1 through 7{
+    .titulo-#{$i}{
+        font-size: 1rem * $i;
+    }
+}
+//maps
+$btn-colors:(
+    naranja: #f88111,
+    gris: #5b5959,
+    amarillo: #b1c311,
+    verde: #11c34c,
+);
+//each
+@each $color in red, blue, yellow , green{
+    .#{$color}{
+        color: $color;
+    }
+}
+
+@each $btn-color, $color in $btn-colors{
+    .btn-#{$btn-color}{
+        background-color: #{$color};
+    }
+}

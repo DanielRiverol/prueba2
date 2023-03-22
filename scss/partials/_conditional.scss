@@ -1,0 +1,31 @@
+$temporada:"lalalg";
+
+
+@if($temporada == "summer"){
+    .header-container{
+        background-image: url(../img/summer.jpg);  
+    }
+}@else if($temporada == "autumn"){
+    .header-container{
+        background-image: url(../img/autumn.jpg);  
+        .header-title {
+            color: $white;
+        }
+    }
+}@else if($temporada == "winter"){
+    .header-container {
+      background-image: url(../img/winter.jpg);
+    }
+    
+}@else if($temporada == "spring"){
+    .header-container {
+      background-image: url(../img/spring.jpg);
+    }
+    
+}@else{
+    .header-container {
+      background-image: url(../img/default2.jpg);
+    }
+
+}
+

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+/* @mixin encabezados(){
+    h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+} */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+.wrapper {
+  /* width: 100%;
+  height: 100vh; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Estilos del header */
+  /* estilos de las tarjetas */
+}
+.wrapper .header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  /*  background-image: url(/img/default2.jpg); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.wrapper .header-container .header-title {
+  margin-left: 30px;
+  font-size: 5.5rem;
+}
+.wrapper .header-container .header-title span {
+  color: rgb(220, 106, 50);
+}
+.wrapper .card-container {
+  height: 650px;
+  display: grid;
+  padding: 10px;
+  gap: 2px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.wrapper .card-container .card {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+}
+.wrapper .card-container .card .card-title {
+  font-size: 2.5rem;
+}
+.wrapper .card-container .card .card-content {
+  font-size: 0.875rem;
+}
+.wrapper .card-container .card .card-footer {
+  width: 100%;
+  text-align: right;
+}
+
+.header-container {
+  background-image: url(../img/default2.jpg);
+}
+
+.titulo-1 {
+  font-size: 1rem;
+}
+
+.titulo-2 {
+  font-size: 2rem;
+}
+
+.titulo-3 {
+  font-size: 3rem;
+}
+
+.titulo-4 {
+  font-size: 4rem;
+}
+
+.titulo-5 {
+  font-size: 5rem;
+}
+
+.titulo-6 {
+  font-size: 6rem;
+}
+
+.titulo-7 {
+  font-size: 7rem;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.btn-naranja {
+  background-color: #f88111;
+}
+
+.btn-gris {
+  background-color: #5b5959;
+}
+
+.btn-amarillo {
+  background-color: #b1c311;
+}
+
+.btn-verde {
+  background-color: #11c34c;
+}
+
+.btn, .btn-big, .btn-medium {
+  font-size: 1rem;
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-medium {
+  width: 50%;
+  height: 45px;
+}
+
+.btn-big {
+  width: 100%;
+  height: 45px;
+}
+
+/*# sourceMappingURL=style.css.map */
